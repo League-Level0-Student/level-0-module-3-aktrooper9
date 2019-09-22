@@ -11,11 +11,11 @@ public class Are_You_Happy {
 		else if(t.equalsIgnoreCase("no")) {
 			String t1 =JOptionPane.showInputDialog("Do you want to be happy ==}==========================+");
 		
-			if(t1.equalsIgnoreCase("no")) {
-				//String
+			if(t1.equalsIgnoreCase("yes")) {
+				JOptionPane.showMessageDialog(null, "Change Something");//String
 			}
-			else if(t1.equalsIgnoreCase("yes")) {
-			JOptionPane.showInputDialog(null, "Keep doing what you're doing");
+			else if(t1.equalsIgnoreCase("no")) {
+			JOptionPane.showMessageDialog(null, "Keep doing what you're doing");
 			}			
 	
 		
