@@ -26,6 +26,22 @@ package _12_fizz_buzz;
 **/
 
 public class FizzBuzz {
-
+public static void main(String[] args) {
+	 int n=0;	
+	for(int i=0;i<20;i++) {
+	 n++;
+	 if(n%3==0 && n%5==0){
+	 System.out.println("fizzbuzz");
+	 }
+	 else if(n%3==0) {
+		 System.out.println("fizz");
+	 }
+	 else if(n%5==0) {
+		 System.out.println("buzz");
+	 }
+	 else {
+		 System.out.println(n);
+	 }
+	}
 }
-
+}

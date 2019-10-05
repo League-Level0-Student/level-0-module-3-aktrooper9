@@ -5,8 +5,7 @@
 package _09_robot_walk_of_fame;
 
 import org.jointheleague.graphical.robot.Robot;
-
-public class WalkOfFame {
+class Snowflake {
 	public static void main(String[] args) {
 		Robot rob = new Robot();
 		// 1. Set the X position of the robot so that it starts on the left. 
@@ -16,18 +15,14 @@ public class WalkOfFame {
 		// 2. Make the robot draw a star shape. Hint: 144.
 		rob.penDown();
 		rob.setSpeed(1000000000);
-		
-		rob.turn(18);
 		for(int e=0;e<10;e++) {
+		rob.turn(18);
 		for(int i=0;i<5;i++) {
 			rob.turn(144);
 			rob.move(160);
 		}
-		rob.penUp();
-		rob.turn(360);
-		rob.move(80);
+		rob.turn(90);
 		rob.move(50);
-		rob.penDown();
 		}
 		// 3. Set the size of the star to 30.
 
